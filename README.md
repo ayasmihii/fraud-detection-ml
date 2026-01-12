@@ -87,6 +87,21 @@ Ce projet vise à construire un **système de détection de fraudes** à partir 
 
 ---
 
+## 📊 Dashboard interactif (Streamlit)
+
+Un mini dashboard Streamlit a été développé afin de démontrer l’utilisation du modèle dans un contexte applicatif.
+
+Fonctionnalités :
+- Chargement du modèle XGBoost entraîné
+- Simulation de transactions
+- Slider interactif pour le seuil de décision
+- Mode simplifié (Time, Amount) et mode expert (toutes les variables)
+- Exemples préchargés de transaction normale et frauduleuse
+
+Le dashboard illustre la transformation d’un modèle de machine learning en outil de décision exploitable.
+
+---
+
 ## ▶️ Lancer le projet
 ```bash
 pip install -r requirements.txt
