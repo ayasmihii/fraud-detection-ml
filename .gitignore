@@ -12,3 +12,6 @@ data/
 
 # Outputs
 reports/
+
+models/
+*.pkl
